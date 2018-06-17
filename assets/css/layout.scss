@@ -1,0 +1,15 @@
+.chart-container {
+  height: 100%;
+  width: 100%;
+}
+
+.chart-label {
+  height: 150px;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}

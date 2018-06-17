@@ -1,0 +1,58 @@
+button:focus,
+input:focus,
+textarea:focus,
+a:focus {
+    outline: none !important;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Flex classes
+|--------------------------------------------------------------------------
+*/
+
+.flex {
+    display: flex;
+}
+
+.flex.-column {
+    flex-direction: column;
+}
+
+.flex.-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex.-items-center {
+    align-items: center;
+}
+
+.flex.-jc-center {
+    justify-content: center;
+}
+
+.flex.-ai-center {
+    align-items: center;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Helper classes
+|--------------------------------------------------------------------------
+*/
+
+.-margin-zero {
+    margin: 0 !important;
+}
+
+.-padding-zero {
+    padding: 0 !important;
+}
+
+.-padding-rzero {
+    padding-right: 0 !important;
+}
+
+.-padding-lzero {
+    padding-left: 0 !important;
+}
